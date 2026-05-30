@@ -1,83 +1,55 @@
-# 📚 Library Management System
+Library Database Management System
 
-A Database Management System (DBMS) project developed to automate and simplify library operations. This system efficiently manages book records, student information, and book issue/return transactions using a relational database structure.
+A simple Library Database Management System built using MySQL. This project helps manage books, library members, and book issue/return records.
 
-## 🚀 Project Overview
+## Features
 
-The Library Management System helps libraries maintain organized records of books and students while tracking issued and returned books. The project demonstrates the practical implementation of DBMS concepts such as relational databases, primary keys, foreign keys, constraints, and SQL queries.
+- Add and manage books
+- Store member information
+- Issue books to members
+- Track returned books
+- Use SQL queries to retrieve and manage data
 
-## ✨ Features
+## Technologies Used
 
-* 📖 Manage book records
-* 👨‍🎓 Store and manage student details
-* 🔄 Issue books to students
-* ✅ Track returned books
-* 🔍 Search and retrieve records efficiently
-* 📊 Maintain transaction history
-* 🔗 Implement relationships between tables
-* 🛡️ Ensure data integrity using constraints
+- MySQL
+- SQL
+- MySQL Workbench
 
-## 🗄️ Database Structure
+## Database Tables
 
-### Books Table
+- Books
+- Members
+- Authors
+- Publishers
+- Book_Issues
 
-Stores information about books available in the library.
+## Concepts Used
 
-### Students Table
+- Primary Keys
+- Foreign Keys
+- Joins
+- CRUD Operations (Create, Read, Update, Delete)
+- Aggregate Functions
 
-Stores student details and identification information.
+## How to Run
 
-### Issued Books Table
+1. Open MySQL Workbench.
+2. Create a new database.
+3. Run the SQL script file.
+4. Execute queries and explore the database.
 
-Maintains records of books issued to students and their return status.
+## Learning Outcomes
 
-## 🛠️ Technologies Used
+- Database Design
+- SQL Query Writing
+- Table Relationships
+- Data Management
 
-* SQL
-* Database Management System (DBMS)
-* Relational Database Design
-* SQLite / MySQL
-
-## 📚 DBMS Concepts Implemented
-
-* Primary Keys
-* Foreign Keys
-* Table Relationships
-* Constraints
-* CRUD Operations
-* Data Retrieval using SQL Queries
-* Normalized Database Structure
-
-## 🎯 Learning Outcomes
-
-Through this project, I gained hands-on experience in:
-
-* Designing relational databases
-* Writing SQL queries
-* Managing data efficiently
-* Establishing table relationships
-* Implementing real-world DBMS concepts
-
-## 📂 Project Files
-
-```text
-Library-Management-System/
-│
-├── Library_DB.db
-├── README.md
-├── schema.sql
-├── queries.sql
-└── screenshots/
-```
-
-## 👨‍💻 Author
+## Author
 
 **Sanath Keshetti**
 
-Aspiring Software Developer passionate about Database Management, Web Development, AI, and Problem Solving.
+GitHub: https://github.com/sanathX-AI
 
----
-
-⭐ If you found this project useful, feel free to star the repository.
-
-- Relational Database Design
+LinkedIn: https://www.linkedin.com/in/sanath-keshetti
